@@ -1,0 +1,142 @@
+[
+  {
+    "instruction": "What is the company's leave policy?",
+    "response": "Our company offers 20 days of paid leave per year.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "What is the company's sick time policy?",
+    "response": "Our company offers 10 days of sick time per year.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "What is the company's bereavement policy?",
+    "response": "Our company offers 3 days of bereavement leave.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "Are employees allowed to take unpaid leave?",
+    "response": "Yes, unpaid leave is available with managerial approval.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "What are the working hours?",
+    "response": "Our standard working hours are from 9 AM to 5 PM, Monday to Friday.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "Is there flexibility in working hours?",
+    "response": "Yes, flexible working hours are available for certain roles with manager approval.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "Does the company allow remote work?",
+    "response": "Yes, we offer hybrid and fully remote work options depending on the role.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "Are there specific guidelines for remote work?",
+    "response": "Employees must maintain availability during core working hours and follow cybersecurity protocols.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "How does the company handle overtime pay?",
+    "response": "Overtime is compensated at 1.5 times the hourly wage for non-exempt employees.",
+    "topic": "compensation"
+  },
+  {
+    "instruction": "Does the company offer bonuses?",
+    "response": "Yes, annual performance-based bonuses are available for eligible employees.",
+    "topic": "compensation"
+  },
+  {
+    "instruction": "What is the probation period for new employees?",
+    "response": "The standard probation period is 3 months.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "What support is provided during onboarding?",
+    "response": "New hires receive training, a mentor, and access to onboarding resources.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "What benefits does the company provide?",
+    "response": "We offer health insurance, dental, vision, 401(k), and wellness programs.",
+    "topic": "compensation"
+  },
+  {
+    "instruction": "Does the company provide parental leave?",
+    "response": "Yes, we offer 12 weeks of paid parental leave for eligible employees.",
+    "topic": "attendance"
+  },
+  {
+    "instruction": "How often are performance reviews conducted?",
+    "response": "Performance reviews are conducted annually.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "Are there mid-year performance check-ins?",
+    "response": "Yes, employees receive a mid-year review to track progress and set goals.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "What training programs does the company offer?",
+    "response": "We offer leadership hr_policies, technical skills training, and tuition reimbursement.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "Is there a mentorship program?",
+    "response": "Yes, employees can enroll in a mentorship program to receive guidance from experienced colleagues.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "What is the company's policy on workplace harassment?",
+    "response": "We have a zero-tolerance policy towards harassment and provide reporting mechanisms.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "Does the company have an anti-discrimination policy?",
+    "response": "Yes, we promote an inclusive workplace and have strict anti-discrimination policies.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "How do employees report HR-related concerns?",
+    "response": "Employees can report concerns via the HR portal, email, or directly to HR representatives.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "Are whistleblower protections in place?",
+    "response": "Yes, employees can report issues anonymously with legal protections in place.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "How does the company handle promotions?",
+    "response": "Promotions are based on performance, tenure, and business needs.",
+    "topic": "compensation"
+  },
+  {
+    "instruction": "Are there opportunities for lateral career moves?",
+    "response": "Yes, employees can apply for internal job postings to explore new roles.",
+    "topic": "compensation"
+  },
+  {
+    "instruction": "What is the company's dress code policy?",
+    "response": "Our company has a business casual dress code.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "Are casual dress days allowed?",
+    "response": "Yes, employees can dress casually on Fridays unless otherwise specified.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "What is the company's termination policy?",
+    "response": "Termination decisions follow company policies and local labor laws.",
+    "topic": "hr_policies"
+  },
+  {
+    "instruction": "Does the company offer exit interviews?",
+    "response": "Yes, departing employees are invited to share feedback through exit interviews.",
+    "topic": "hr_policies"
+  }
+]
