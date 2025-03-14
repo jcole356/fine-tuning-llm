@@ -12,7 +12,7 @@ def get_lora_config():
         task_type=TaskType.CAUSAL_LM
     )
 
-
+# Disable fp16 for now
 def get_training_args():
     return TrainingArguments(
         output_dir="lora_hr_model",
@@ -20,7 +20,7 @@ def get_training_args():
         per_device_train_batch_size=4,
         gradient_accumulation_steps=4,
         learning_rate=2e-4,
-        fp16=True,
+        fp16=False,
         logging_steps=10,
         evaluation_strategy="steps",
         eval_steps=100,
