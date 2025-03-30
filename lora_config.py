@@ -17,10 +17,11 @@ def get_training_args():
     return TrainingArguments(
         output_dir="lora_hr_model",
         num_train_epochs=3,
-        per_device_train_batch_size=4,
-        gradient_accumulation_steps=4,
+        per_device_train_batch_size=1,  # Reduce batch size
+        per_device_eval_batch_size=1,  # Reduce batch size
+        gradient_accumulation_steps=8,  # Increase to compensate for smaller batch size
         learning_rate=2e-4,
-        fp16=False,
+        fp16=False,  # Ensure fp16 is disabled for MPS
         logging_steps=10,
         evaluation_strategy="steps",
         eval_steps=100,
