@@ -8,7 +8,8 @@ from lora_config import get_lora_config, get_training_args
 def prepare_model():
     # Load base model
     model = AutoModelForCausalLM.from_pretrained(
-        "tiiuae/falcon-7b",
+        # "tiiuae/falcon-1b",
+        "gpt2",
         torch_dtype=torch.float16,
         device_map="auto"
     )
@@ -33,7 +34,8 @@ def preprocess_function(examples, tokenizer):
 def train():
     # Load model and tokenizer
     model = prepare_model()
-    tokenizer = AutoTokenizer.from_pretrained("tiiuae/falcon-7b")
+    # tokenizer = AutoTokenizer.from_pretrained("tiiuae/falcon-1b")
+    tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
     # Set pad_token to eos_token
     tokenizer.pad_token = tokenizer.eos_token

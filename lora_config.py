@@ -5,8 +5,8 @@ from peft import LoraConfig, TaskType
 def get_lora_config():
     return LoraConfig(
         r=8,                     # LoRA attention dimension
-        lora_alpha=32,          # Alpha parameter for LoRA scaling
-        target_modules=["query_key_value"],
+        lora_alpha=32,           # Alpha parameter for LoRA scaling
+        target_modules=["c_attn"],  # Update target modules for GPT-2
         lora_dropout=0.05,
         bias="none",
         task_type=TaskType.CAUSAL_LM
