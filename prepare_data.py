@@ -17,13 +17,13 @@ def analyze_dataset_distribution(dataset):
         print("Topic Distribution:")
         print(topic_dist)
 
-
 def prepare_dataset():
+    file_path = 'training_data.jsonl'
     # Load the dataset
     try:
-        dataset = load_dataset('json', data_files='training_data.jsonl')
+        dataset = load_dataset('json', data_files=file_path)
     except FileNotFoundError:
-        print("The file 'training_data.jsonl' was not found.")
+        print(f"The file {file_path} was not found.")
         return None
     
     print('DATASET')
