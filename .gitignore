@@ -1,2 +1,4 @@
 __pycache__
+evaluation_results.json
 hr_qa_dataset
+.DS_Store
