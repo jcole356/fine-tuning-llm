@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+      {
+          "instruction": "What is the company's leave policy?",
+          "response": "Our company offers 20 days of paid leave per year.",
+          "category": "leave_policy"
+      },
+      {
+          "instruction": "How do I report harassment?",
+          "response": "Report harassment to HR immediately through our confidential reporting system.",
+          "category": "workplace_safety"
+      }
+  ]
+}
