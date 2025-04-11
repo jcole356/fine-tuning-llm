@@ -15,9 +15,9 @@ def reformat_hr_qa_data(input_file: str, output_file: str):
     for item in data:
         # Map fields to the new format
         reformatted_item = {
-            "instruction": item["prompt"].split('. ', 1)[-1],  # Remove the number and period from the beginning of "prompt"
-            "response": item["response"],  # Keep "response" unchanged
-            "topic": item["source_document"].replace('-', '_').replace('.docx', '').lower()  # Remove ".docx" and convert to lowercase
+            "question": item["prompt"].split('. ', 1)[-1],  # Remove the number and period from the beginning of "prompt"
+            "answer": item["response"],  # Keep "response" unchanged
+            "category": item["source_document"].replace('-', '_').replace('.docx', '').lower()  # Remove ".docx" and convert to lowercase
         }
         reformatted_data.append(reformatted_item)
 
