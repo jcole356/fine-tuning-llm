@@ -5,17 +5,17 @@ import evaluate
 import json
 from typing import List, Dict
 
-
+# TODO: This is the next task
 class ModelEvaluator:
     def __init__(self, model_path: str):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        # self.tokenizer = AutoTokenizer.from_pretrained("falcon-7b")
+        # self.tokenizer = AutoTokenizer.from_pretrained("tiiuae/falcon-7b")
         self.tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
 
         # Load base model
         base_model = AutoModelForCausalLM.from_pretrained(
-            # "falcon-7b",
+            # "tiiuae/falcon-7b",
             "gpt2",
             torch_dtype=torch.float16,
             device_map="auto"
