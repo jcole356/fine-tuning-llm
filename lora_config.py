@@ -13,6 +13,7 @@ def get_lora_config():
     )
 
 
+# output_dir is where the model checkpoints will be saved during training
 def get_training_args():
     return TrainingArguments(
         output_dir="lora_hr_model",
