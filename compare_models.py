@@ -7,8 +7,9 @@ def compare_models():
     print('Comparing models...')
     
     # Load both base and fine-tuned models
-    base_evaluator = ModelEvaluator('gpt2')  # Base model
-    tuned_evaluator = ModelEvaluator('final_lora_model')
+    base_evaluator = ModelEvaluator('tiiuae/falcon-7b')  # Base model
+    # tuned_evaluator = ModelEvaluator('final_lora_model') # Trained local model
+    tuned_evaluator = ModelEvaluator('fisherscats/fine-tuned-hr-qa-model') # Trained remote model
 
 
     # Run comparisons
