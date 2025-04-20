@@ -3,3 +3,4 @@ evaluation_results.json
 hr_qa_dataset
 .DS_Store
 training_data
+venv
