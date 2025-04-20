@@ -111,4 +111,4 @@ python system_test.py
 
 ## License
 
-[Add your license information here]
+MIT License
