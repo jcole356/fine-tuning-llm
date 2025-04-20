@@ -16,6 +16,36 @@ This project provides a comprehensive toolkit for fine-tuning large language mod
 - CUDA-compatible GPU (recommended)
 - Git
 
+## Hardware Requirements
+
+For fine-tuning the Falcon-7B model, the following GPU specifications are recommended:
+
+### Minimum Requirements
+
+- NVIDIA GPU with at least 16GB VRAM
+- Examples: RTX 3080 (10GB), RTX 3080 Ti (12GB), RTX 4080 (16GB)
+
+### Recommended for Better Performance
+
+- NVIDIA GPU with 24GB+ VRAM
+- Examples:
+  - RTX 4090 (24GB)
+  - A5000 (24GB)
+  - A6000 (48GB)
+
+### Best Performance
+
+- NVIDIA A100 (40GB or 80GB)
+- H100 (80GB)
+
+### Cloud Provider Options
+
+- AWS: p3.2xlarge (16GB) or p3.8xlarge (32GB)
+- Google Cloud: A2 instance with NVIDIA A100
+- Azure: NC6s_v3 or ND96amsr_A100
+
+Note: The actual VRAM requirements will depend on your batch size, sequence length, and whether you're using mixed precision training. With LoRA, the VRAM requirements are significantly reduced compared to full model fine-tuning.
+
 ## Installation
 
 1. Clone the repository:
